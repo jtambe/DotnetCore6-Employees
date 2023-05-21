@@ -1,0 +1,9 @@
+# Ignore directories from previous .gitignore from any level
+**/bin/
+**/*.bin/
+**/*.vs/
+**/*.suo
+**/*.user
+**/*.userprefs
+**/*.vscode/
+**/project.lock.json
