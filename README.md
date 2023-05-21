@@ -14,7 +14,7 @@ Important points to notice:
 7. In case a manager level employee is assigned a role of Employee, it also updates associated employees' managerIds as null
 
 Following are some of the commands that came in handy when dealing with localDB in Db first approach
-
+```
 sqllocaldb stop ProjectModels
 sqllocaldb stop MSSQLLocalDB
 sqllocaldb start ProjectModels
@@ -23,4 +23,4 @@ sqllocaldb start MSSQLLocalDB
 dotnet ef migrations add UpdateDatabase
 dotnet ef database update
 dotnet ef dbcontext scaffold "DBConnectionString" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models -f
-
+```
