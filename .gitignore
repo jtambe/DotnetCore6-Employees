@@ -1,6 +1,8 @@
 # Ignore directories from previous .gitignore from any level
 **/bin/
 **/*.bin/
+**/obj/
+**/*.obj/
 **/*.vs/
 **/*.suo
 **/*.user
